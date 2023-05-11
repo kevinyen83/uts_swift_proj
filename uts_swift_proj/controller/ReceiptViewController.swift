@@ -7,23 +7,31 @@
 
 import Foundation
 import UIKit
+import CoreData
 
 class ReceiptViewController: UIViewController {
 
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var contactNumberLabel: UILabel!
+    @IBOutlet weak var emailLabel: UILabel!
     @IBOutlet weak var specialRequirementsLabel: UILabel!
     
-    var name:String?
-    var contactNumber:String?
-    var specialRequirements:String?
+    var user: User?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        nameLabel.text = name
-        contactNumberLabel.text = contactNumber
-        specialRequirementsLabel.text = specialRequirements
+        
+        guard let user = user else {
+            return
+        }
+        
+        nameLabel.text = "Name: " + (user.name ?? "")
+        contactNumberLabel.text = "Contact Number: " + (user.contactNumber ?? "")
+        emailLabel.text = "Email: " + (user.email ?? "")
+        specialRequirementsLabel.text = "Special Requirements: " + (user.specialRequirements ?? "")
     }
 
-
+    @IBAction func doneButtonTapped(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
 }
