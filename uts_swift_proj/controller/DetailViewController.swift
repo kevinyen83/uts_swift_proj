@@ -18,6 +18,8 @@ class DetailViewController: UIViewController {
         
         var managedObjectContext: NSManagedObjectContext?
         
+        var user: User?
+        
         override func viewDidLoad() {
             super.viewDidLoad()
             
@@ -50,7 +52,15 @@ class DetailViewController: UIViewController {
                 print("Could not save data. \(error), \(error.userInfo)")
             }
         }
-        
+    // Override prepare(for:sender:) method to pass user to ReceiptViewController
+          override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+              if segue.identifier == "showReceiptSegue" {
+                  if let receiptVC = segue.destination as? ReceiptViewController {
+                      receiptVC.user = user
+                  }
+              }
+     }
+
     }
     
     class User: NSManagedObject {
@@ -63,4 +73,5 @@ class DetailViewController: UIViewController {
             let entityDescription = NSEntityDescription.entity(forEntityName: "Reservation", in: context)!
             self.init(entity: entityDescription, insertInto: context)
         }
+        
     }
