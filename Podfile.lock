@@ -1,43 +1,20 @@
 PODS:
-  - AFNetworking (3.2.1):
-    - AFNetworking/NSURLSession (= 3.2.1)
-    - AFNetworking/Reachability (= 3.2.1)
-    - AFNetworking/Security (= 3.2.1)
-    - AFNetworking/Serialization (= 3.2.1)
-    - AFNetworking/UIKit (= 3.2.1)
-  - AFNetworking/NSURLSession (3.2.1):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.2.1)
-  - AFNetworking/Security (3.2.1)
-  - AFNetworking/Serialization (3.2.1)
-  - AFNetworking/UIKit (3.2.1):
-    - AFNetworking/NSURLSession
-  - Bolts (1.9.1):
-    - Bolts/AppLinks (= 1.9.1)
-    - Bolts/Tasks (= 1.9.1)
-  - Bolts/AppLinks (1.9.1):
-    - Bolts/Tasks
-  - Bolts/Tasks (1.9.1)
-  - FBSDKCoreKit (4.44.1):
-    - Bolts (~> 1.9)
+  - GoogleMaps (7.1.0):
+    - GoogleMaps/Maps (= 7.1.0)
+  - GoogleMaps/Base (7.1.0)
+  - GoogleMaps/Maps (7.1.0):
+    - GoogleMaps/Base
 
 DEPENDENCIES:
-  - AFNetworking (~> 3.0)
-  - FBSDKCoreKit (~> 4.9)
+  - GoogleMaps (= 7.1.0)
 
 SPEC REPOS:
   trunk:
-    - AFNetworking
-    - Bolts
-    - FBSDKCoreKit
+    - GoogleMaps
 
 SPEC CHECKSUMS:
-  AFNetworking: cb604b1c2bded0871f5f61f5d53653739e841d6b
-  Bolts: 8c1e8aab2f603387b8b9924f57d1d64f43d3ffdc
-  FBSDKCoreKit: a823ae35bdb60ebb8d7a7e51abe7c5d87d2bfced
+  GoogleMaps: bc56ffb0324e345a2d91bac1a64a920f9c8f1b20
 
-PODFILE CHECKSUM: 3c3e09037703a8c60244a01af8c279346ca0f95c
+PODFILE CHECKSUM: f5a99c15a227ed0c2dc2040ca20859de4e8808d7
 
 COCOAPODS: 1.12.1

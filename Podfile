@@ -1,7 +1,7 @@
 # Uncomment the next line to define a global platform for your project
-source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '13.0'
+# platform :ios, '16.2'
+# source 'https://github.com/CocoaPods/Specs.git'
 
-target 'uts_swift_proj' do
-	pod 'GoogleMaps', '7.1.0'
+target 'BubblePop' do
+   pod 'GoogleMaps', '7.1.0'
 end

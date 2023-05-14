@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4164176329F24E030067EE9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4164176229F24E030067EE9C /* AppDelegate.swift */; };
+		4164176529F24E030067EE9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4164176429F24E030067EE9C /* SceneDelegate.swift */; };
+		4164176729F24E030067EE9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4164176629F24E030067EE9C /* ViewController.swift */; };
+		4164176A29F24E030067EE9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4164176829F24E030067EE9C /* Main.storyboard */; };
+		4164176C29F24E030067EE9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4164176B29F24E030067EE9C /* Assets.xcassets */; };
+		4164176F29F24E030067EE9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4164176D29F24E030067EE9C /* LaunchScreen.storyboard */; };
+		4164177A29F24E040067EE9C /* BubblePopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4164177929F24E040067EE9C /* BubblePopTests.swift */; };
+		4164178429F24E040067EE9C /* BubblePopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4164178329F24E040067EE9C /* BubblePopUITests.swift */; };
+		4164178629F24E040067EE9C /* BubblePopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4164178529F24E040067EE9C /* BubblePopUITestsLaunchTests.swift */; };
+		4164179629F259F60067EE9C /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4164179529F259F60067EE9C /* DateViewController.swift */; };
+		4164179829F25A0F0067EE9C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4164179729F25A0F0067EE9C /* DetailViewController.swift */; };
+		41DB077E2A10A11200092AA9 /* ReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DB077D2A10A11200092AA9 /* ReceiptViewController.swift */; };
+		5FF80EEB2A10D787000F1470 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF80EEA2A10D787000F1470 /* MapViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4164177629F24E040067EE9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4164175729F24E020067EE9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4164175E29F24E030067EE9C;
+			remoteInfo = BubblePop;
+		};
+		4164178029F24E040067EE9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4164175729F24E020067EE9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4164175E29F24E030067EE9C;
+			remoteInfo = BubblePop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14562F30F1DFD6BEB015BA5C /* libPods-BubblePop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BubblePop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4164175F29F24E030067EE9C /* BubblePop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubblePop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4164176229F24E030067EE9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4164176429F24E030067EE9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4164176629F24E030067EE9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4164176929F24E030067EE9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4164176B29F24E030067EE9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4164176E29F24E030067EE9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4164177029F24E030067EE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4164177529F24E040067EE9C /* BubblePopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubblePopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4164177929F24E040067EE9C /* BubblePopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubblePopTests.swift; sourceTree = "<group>"; };
+		4164177F29F24E040067EE9C /* BubblePopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubblePopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4164178329F24E040067EE9C /* BubblePopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubblePopUITests.swift; sourceTree = "<group>"; };
+		4164178529F24E040067EE9C /* BubblePopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubblePopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4164179529F259F60067EE9C /* DateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
+		4164179729F25A0F0067EE9C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		41DB077D2A10A11200092AA9 /* ReceiptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptViewController.swift; sourceTree = "<group>"; };
+		5FF80EEA2A10D787000F1470 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		60C94DFC42EF6657AC215735 /* Pods-BubblePop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BubblePop.debug.xcconfig"; path = "Target Support Files/Pods-BubblePop/Pods-BubblePop.debug.xcconfig"; sourceTree = "<group>"; };
+		F40ADC070A97B57A523DFFDA /* Pods-BubblePop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BubblePop.release.xcconfig"; path = "Target Support Files/Pods-BubblePop/Pods-BubblePop.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4164175C29F24E030067EE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4164177229F24E040067EE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4164177C29F24E040067EE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4164175629F24E020067EE9C = {
+			isa = PBXGroup;
+			children = (
+				4164176129F24E030067EE9C /* BubblePop */,
+				4164177829F24E040067EE9C /* BubblePopTests */,
+				4164178229F24E040067EE9C /* BubblePopUITests */,
+				4164176029F24E030067EE9C /* Products */,
+				E782E3DA23D62FEE94E310A8 /* Pods */,
+				70E8A6EEE91757B259DDCE83 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4164176029F24E030067EE9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4164175F29F24E030067EE9C /* BubblePop.app */,
+				4164177529F24E040067EE9C /* BubblePopTests.xctest */,
+				4164177F29F24E040067EE9C /* BubblePopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4164176129F24E030067EE9C /* BubblePop */ = {
+			isa = PBXGroup;
+			children = (
+				4164179429F259710067EE9C /* Model */,
+				4164179329F2594F0067EE9C /* Controller */,
+				4164179229F259380067EE9C /* View */,
+				4164176229F24E030067EE9C /* AppDelegate.swift */,
+				4164176429F24E030067EE9C /* SceneDelegate.swift */,
+				4164176B29F24E030067EE9C /* Assets.xcassets */,
+				4164176D29F24E030067EE9C /* LaunchScreen.storyboard */,
+				4164177029F24E030067EE9C /* Info.plist */,
+			);
+			path = BubblePop;
+			sourceTree = "<group>";
+		};
+		4164177829F24E040067EE9C /* BubblePopTests */ = {
+			isa = PBXGroup;
+			children = (
+				4164177929F24E040067EE9C /* BubblePopTests.swift */,
+			);
+			path = BubblePopTests;
+			sourceTree = "<group>";
+		};
+		4164178229F24E040067EE9C /* BubblePopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4164178329F24E040067EE9C /* BubblePopUITests.swift */,
+				4164178529F24E040067EE9C /* BubblePopUITestsLaunchTests.swift */,
+			);
+			path = BubblePopUITests;
+			sourceTree = "<group>";
+		};
+		4164179229F259380067EE9C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4164176829F24E030067EE9C /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4164179329F2594F0067EE9C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4164176629F24E030067EE9C /* ViewController.swift */,
+				4164179529F259F60067EE9C /* DateViewController.swift */,
+				4164179729F25A0F0067EE9C /* DetailViewController.swift */,
+				41DB077D2A10A11200092AA9 /* ReceiptViewController.swift */,
+				5FF80EEA2A10D787000F1470 /* MapViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4164179429F259710067EE9C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70E8A6EEE91757B259DDCE83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14562F30F1DFD6BEB015BA5C /* libPods-BubblePop.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E782E3DA23D62FEE94E310A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60C94DFC42EF6657AC215735 /* Pods-BubblePop.debug.xcconfig */,
+				F40ADC070A97B57A523DFFDA /* Pods-BubblePop.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4164175E29F24E030067EE9C /* BubblePop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4164178929F24E040067EE9C /* Build configuration list for PBXNativeTarget "BubblePop" */;
+			buildPhases = (
+				BE0FB984DC5B196E650D27AF /* [CP] Check Pods Manifest.lock */,
+				4164175B29F24E030067EE9C /* Sources */,
+				4164175C29F24E030067EE9C /* Frameworks */,
+				4164175D29F24E030067EE9C /* Resources */,
+				5C175BD51224FFD1AB40EE72 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BubblePop;
+			productName = BubblePop;
+			productReference = 4164175F29F24E030067EE9C /* BubblePop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4164177429F24E040067EE9C /* BubblePopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4164178C29F24E040067EE9C /* Build configuration list for PBXNativeTarget "BubblePopTests" */;
+			buildPhases = (
+				4164177129F24E040067EE9C /* Sources */,
+				4164177229F24E040067EE9C /* Frameworks */,
+				4164177329F24E040067EE9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4164177729F24E040067EE9C /* PBXTargetDependency */,
+			);
+			name = BubblePopTests;
+			productName = BubblePopTests;
+			productReference = 4164177529F24E040067EE9C /* BubblePopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4164177E29F24E040067EE9C /* BubblePopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4164178F29F24E040067EE9C /* Build configuration list for PBXNativeTarget "BubblePopUITests" */;
+			buildPhases = (
+				4164177B29F24E040067EE9C /* Sources */,
+				4164177C29F24E040067EE9C /* Frameworks */,
+				4164177D29F24E040067EE9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4164178129F24E040067EE9C /* PBXTargetDependency */,
+			);
+			name = BubblePopUITests;
+			productName = BubblePopUITests;
+			productReference = 4164177F29F24E040067EE9C /* BubblePopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4164175729F24E020067EE9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4164175E29F24E030067EE9C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					4164177429F24E040067EE9C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4164175E29F24E030067EE9C;
+					};
+					4164177E29F24E040067EE9C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4164175E29F24E030067EE9C;
+					};
+				};
+			};
+			buildConfigurationList = 4164175A29F24E030067EE9C /* Build configuration list for PBXProject "BubblePop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4164175629F24E020067EE9C;
+			productRefGroup = 4164176029F24E030067EE9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4164175E29F24E030067EE9C /* BubblePop */,
+				4164177429F24E040067EE9C /* BubblePopTests */,
+				4164177E29F24E040067EE9C /* BubblePopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4164175D29F24E030067EE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4164176F29F24E030067EE9C /* LaunchScreen.storyboard in Resources */,
+				4164176C29F24E030067EE9C /* Assets.xcassets in Resources */,
+				4164176A29F24E030067EE9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4164177329F24E040067EE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4164177D29F24E040067EE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C175BD51224FFD1AB40EE72 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BubblePop/Pods-BubblePop-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BubblePop/Pods-BubblePop-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BubblePop/Pods-BubblePop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE0FB984DC5B196E650D27AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BubblePop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4164175B29F24E030067EE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4164179829F25A0F0067EE9C /* DetailViewController.swift in Sources */,
+				4164176729F24E030067EE9C /* ViewController.swift in Sources */,
+				4164176329F24E030067EE9C /* AppDelegate.swift in Sources */,
+				41DB077E2A10A11200092AA9 /* ReceiptViewController.swift in Sources */,
+				4164176529F24E030067EE9C /* SceneDelegate.swift in Sources */,
+				4164179629F259F60067EE9C /* DateViewController.swift in Sources */,
+				5FF80EEB2A10D787000F1470 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4164177129F24E040067EE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4164177A29F24E040067EE9C /* BubblePopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4164177B29F24E040067EE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4164178629F24E040067EE9C /* BubblePopUITestsLaunchTests.swift in Sources */,
+				4164178429F24E040067EE9C /* BubblePopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4164177729F24E040067EE9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4164175E29F24E030067EE9C /* BubblePop */;
+			targetProxy = 4164177629F24E040067EE9C /* PBXContainerItemProxy */;
+		};
+		4164178129F24E040067EE9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4164175E29F24E030067EE9C /* BubblePop */;
+			targetProxy = 4164178029F24E040067EE9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4164176829F24E030067EE9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4164176929F24E030067EE9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4164176D29F24E030067EE9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4164176E29F24E030067EE9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4164178729F24E040067EE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4164178829F24E040067EE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4164178A29F24E040067EE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60C94DFC42EF6657AC215735 /* Pods-BubblePop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BubblePop/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.uts.BubblePop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4164178B29F24E040067EE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F40ADC070A97B57A523DFFDA /* Pods-BubblePop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BubblePop/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.uts.BubblePop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4164178D29F24E040067EE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.uts.BubblePopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BubblePop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BubblePop";
+			};
+			name = Debug;
+		};
+		4164178E29F24E040067EE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.uts.BubblePopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BubblePop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BubblePop";
+			};
+			name = Release;
+		};
+		4164179029F24E040067EE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.uts.BubblePopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BubblePop;
+			};
+			name = Debug;
+		};
+		4164179129F24E040067EE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.uts.BubblePopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BubblePop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4164175A29F24E030067EE9C /* Build configuration list for PBXProject "BubblePop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4164178729F24E040067EE9C /* Debug */,
+				4164178829F24E040067EE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4164178929F24E040067EE9C /* Build configuration list for PBXNativeTarget "BubblePop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4164178A29F24E040067EE9C /* Debug */,
+				4164178B29F24E040067EE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4164178C29F24E040067EE9C /* Build configuration list for PBXNativeTarget "BubblePopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4164178D29F24E040067EE9C /* Debug */,
+				4164178E29F24E040067EE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4164178F29F24E040067EE9C /* Build configuration list for PBXNativeTarget "BubblePopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4164179029F24E040067EE9C /* Debug */,
+				4164179129F24E040067EE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4164175729F24E020067EE9C /* Project object */;
+}
