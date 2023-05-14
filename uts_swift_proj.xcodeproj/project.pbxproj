@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41DB07262A0E215800092AA9 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DB07252A0E215800092AA9 /* DateViewController.swift */; };
 		5F4308A82A00BEDB00CDDB5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4308A72A00BEDB00CDDB5E /* AppDelegate.swift */; };
 		5F4308AA2A00BEDB00CDDB5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4308A92A00BEDB00CDDB5E /* SceneDelegate.swift */; };
 		5F4308AC2A00BEDB00CDDB5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4308AB2A00BEDB00CDDB5E /* ViewController.swift */; };
@@ -17,6 +18,8 @@
 		5F4308C22A00BEE000CDDB5E /* uts_swift_projTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4308C12A00BEE000CDDB5E /* uts_swift_projTests.swift */; };
 		5F4308CC2A00BEE000CDDB5E /* uts_swift_projUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4308CB2A00BEE000CDDB5E /* uts_swift_projUITests.swift */; };
 		5F4308CE2A00BEE000CDDB5E /* uts_swift_projUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4308CD2A00BEE000CDDB5E /* uts_swift_projUITestsLaunchTests.swift */; };
+		5F4308DE2A013E4900CDDB5E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4308DD2A013E4900CDDB5E /* DetailViewController.swift */; };
+		D75C71D72A01DB4B00E8C902 /* ReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75C71D62A01DB4B00E8C902 /* ReceiptViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		41DB07252A0E215800092AA9 /* DateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
 		5F4308A42A00BEDB00CDDB5E /* uts_swift_proj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uts_swift_proj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F4308A72A00BEDB00CDDB5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F4308A92A00BEDB00CDDB5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 		5F4308C72A00BEE000CDDB5E /* uts_swift_projUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uts_swift_projUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F4308CB2A00BEE000CDDB5E /* uts_swift_projUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uts_swift_projUITests.swift; sourceTree = "<group>"; };
 		5F4308CD2A00BEE000CDDB5E /* uts_swift_projUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uts_swift_projUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5F4308DD2A013E4900CDDB5E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D75C71D62A01DB4B00E8C902 /* ReceiptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +107,11 @@
 		5F4308A62A00BEDB00CDDB5E /* uts_swift_proj */ = {
 			isa = PBXGroup;
 			children = (
+				5F4308DC2A013DFD00CDDB5E /* view */,
+				5F4308DB2A013DED00CDDB5E /* controller */,
+				5F4308DA2A013DE500CDDB5E /* model */,
 				5F4308A72A00BEDB00CDDB5E /* AppDelegate.swift */,
 				5F4308A92A00BEDB00CDDB5E /* SceneDelegate.swift */,
-				5F4308AB2A00BEDB00CDDB5E /* ViewController.swift */,
-				5F4308AD2A00BEDB00CDDB5E /* Main.storyboard */,
 				5F4308B32A00BEE000CDDB5E /* Assets.xcassets */,
 				5F4308B52A00BEE000CDDB5E /* LaunchScreen.storyboard */,
 				5F4308B82A00BEE000CDDB5E /* Info.plist */,
@@ -128,6 +135,32 @@
 				5F4308CD2A00BEE000CDDB5E /* uts_swift_projUITestsLaunchTests.swift */,
 			);
 			path = uts_swift_projUITests;
+			sourceTree = "<group>";
+		};
+		5F4308DA2A013DE500CDDB5E /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		5F4308DB2A013DED00CDDB5E /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F4308DD2A013E4900CDDB5E /* DetailViewController.swift */,
+				D75C71D62A01DB4B00E8C902 /* ReceiptViewController.swift */,
+				5F4308AB2A00BEDB00CDDB5E /* ViewController.swift */,
+				41DB07252A0E215800092AA9 /* DateViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		5F4308DC2A013DFD00CDDB5E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				5F4308AD2A00BEDB00CDDB5E /* Main.storyboard */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +296,11 @@
 			files = (
 				5F4308AC2A00BEDB00CDDB5E /* ViewController.swift in Sources */,
 				5F4308B22A00BEDB00CDDB5E /* uts_swift_proj.xcdatamodeld in Sources */,
+				41DB07262A0E215800092AA9 /* DateViewController.swift in Sources */,
 				5F4308A82A00BEDB00CDDB5E /* AppDelegate.swift in Sources */,
+				D75C71D72A01DB4B00E8C902 /* ReceiptViewController.swift in Sources */,
 				5F4308AA2A00BEDB00CDDB5E /* SceneDelegate.swift in Sources */,
+				5F4308DE2A013E4900CDDB5E /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
